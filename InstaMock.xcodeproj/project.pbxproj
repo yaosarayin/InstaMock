@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BBA946C605050A78DD8AE1 /* Pods_InstaMock_InstaMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491779C3AC374B62D29F7D06 /* Pods_InstaMock_InstaMockUITests.framework */; };
+		2018763F2543C171009EF9DF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018763E2543C171009EF9DF /* PostCell.swift */; };
 		205E3DB02543AE78006433D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DAF2543AE78006433D9 /* AppDelegate.swift */; };
 		205E3DB22543AE78006433D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DB12543AE78006433D9 /* SceneDelegate.swift */; };
-		205E3DB42543AE78006433D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DB32543AE78006433D9 /* ViewController.swift */; };
 		205E3DB72543AE78006433D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205E3DB52543AE78006433D9 /* Main.storyboard */; };
 		205E3DB92543AE7B006433D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205E3DB82543AE7B006433D9 /* Assets.xcassets */; };
 		205E3DBC2543AE7B006433D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205E3DBA2543AE7B006433D9 /* LaunchScreen.storyboard */; };
 		205E3DC72543AE7B006433D9 /* InstaMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DC62543AE7B006433D9 /* InstaMockTests.swift */; };
 		205E3DD22543AE7B006433D9 /* InstaMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DD12543AE7B006433D9 /* InstaMockUITests.swift */; };
+		20729F7A2543B16D00087045 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20729F792543B16D00087045 /* LoginViewController.swift */; };
+		20729F7F2543B1AD00087045 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20729F7E2543B1AD00087045 /* FeedViewController.swift */; };
+		20F865762543BB2C0089116C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F865752543BB2C0089116C /* CameraViewController.swift */; };
+		90059C92E1E03858F5A34B5B /* Pods_InstaMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DDF8B2E6B056CB8A110374 /* Pods_InstaMock.framework */; };
+		DE22E0E496B89FEDCB416E5F /* Pods_InstaMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2E508E534E4609571C23A3 /* Pods_InstaMockTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B4BB82D1ED337D9D5E1724 /* Pods-InstaMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMock.release.xcconfig"; path = "Target Support Files/Pods-InstaMock/Pods-InstaMock.release.xcconfig"; sourceTree = "<group>"; };
+		2018763E2543C171009EF9DF /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		205E3DAC2543AE78006433D9 /* InstaMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E3DAF2543AE78006433D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		205E3DB12543AE78006433D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		205E3DB32543AE78006433D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		205E3DB62543AE78006433D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		205E3DB82543AE7B006433D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205E3DBB2543AE7B006433D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		205E3DCD2543AE7B006433D9 /* InstaMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E3DD12543AE7B006433D9 /* InstaMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaMockUITests.swift; sourceTree = "<group>"; };
 		205E3DD32543AE7B006433D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20729F792543B16D00087045 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20729F7E2543B1AD00087045 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		20F865752543BB2C0089116C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2D62A57491F4985C4116F24D /* Pods-InstaMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMockTests.release.xcconfig"; path = "Target Support Files/Pods-InstaMockTests/Pods-InstaMockTests.release.xcconfig"; sourceTree = "<group>"; };
+		34A4303CE393347C513510FF /* Pods-InstaMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMock.debug.xcconfig"; path = "Target Support Files/Pods-InstaMock/Pods-InstaMock.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2E508E534E4609571C23A3 /* Pods_InstaMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EEF0AF9165C0BAADAE4BCD /* Pods-InstaMock-InstaMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMock-InstaMockUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaMock-InstaMockUITests/Pods-InstaMock-InstaMockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		491779C3AC374B62D29F7D06 /* Pods_InstaMock_InstaMockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaMock_InstaMockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DDF8B2E6B056CB8A110374 /* Pods_InstaMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EBD7E66CE3686681730A05 /* Pods-InstaMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMockTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaMockTests/Pods-InstaMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D9502CD46C8DF772C15AF9 /* Pods-InstaMock-InstaMockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMock-InstaMockUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaMock-InstaMockUITests/Pods-InstaMock-InstaMockUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90059C92E1E03858F5A34B5B /* Pods_InstaMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE22E0E496B89FEDCB416E5F /* Pods_InstaMockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BBA946C605050A78DD8AE1 /* Pods_InstaMock_InstaMockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				205E3DC52543AE7B006433D9 /* InstaMockTests */,
 				205E3DD02543AE7B006433D9 /* InstaMockUITests */,
 				205E3DAD2543AE78006433D9 /* Products */,
+				5C8D63AA20C98678CC20CDAE /* Pods */,
+				3500CDB332A227784871787F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +124,11 @@
 			children = (
 				205E3DAF2543AE78006433D9 /* AppDelegate.swift */,
 				205E3DB12543AE78006433D9 /* SceneDelegate.swift */,
-				205E3DB32543AE78006433D9 /* ViewController.swift */,
 				205E3DB52543AE78006433D9 /* Main.storyboard */,
+				2018763E2543C171009EF9DF /* PostCell.swift */,
+				20F865752543BB2C0089116C /* CameraViewController.swift */,
+				20729F7E2543B1AD00087045 /* FeedViewController.swift */,
+				20729F792543B16D00087045 /* LoginViewController.swift */,
 				205E3DB82543AE7B006433D9 /* Assets.xcassets */,
 				205E3DBA2543AE7B006433D9 /* LaunchScreen.storyboard */,
 				205E3DBD2543AE7B006433D9 /* Info.plist */,
@@ -128,6 +154,29 @@
 			path = InstaMockUITests;
 			sourceTree = "<group>";
 		};
+		3500CDB332A227784871787F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70DDF8B2E6B056CB8A110374 /* Pods_InstaMock.framework */,
+				491779C3AC374B62D29F7D06 /* Pods_InstaMock_InstaMockUITests.framework */,
+				3D2E508E534E4609571C23A3 /* Pods_InstaMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C8D63AA20C98678CC20CDAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A4303CE393347C513510FF /* Pods-InstaMock.debug.xcconfig */,
+				01B4BB82D1ED337D9D5E1724 /* Pods-InstaMock.release.xcconfig */,
+				C0D9502CD46C8DF772C15AF9 /* Pods-InstaMock-InstaMockUITests.debug.xcconfig */,
+				42EEF0AF9165C0BAADAE4BCD /* Pods-InstaMock-InstaMockUITests.release.xcconfig */,
+				A0EBD7E66CE3686681730A05 /* Pods-InstaMockTests.debug.xcconfig */,
+				2D62A57491F4985C4116F24D /* Pods-InstaMockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205E3DD62543AE7B006433D9 /* Build configuration list for PBXNativeTarget "InstaMock" */;
 			buildPhases = (
+				657D41F25F80BF067E8AE735 /* [CP] Check Pods Manifest.lock */,
 				205E3DA82543AE78006433D9 /* Sources */,
 				205E3DA92543AE78006433D9 /* Frameworks */,
 				205E3DAA2543AE78006433D9 /* Resources */,
+				30E7F22D86A18C2D92AE65B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205E3DD92543AE7B006433D9 /* Build configuration list for PBXNativeTarget "InstaMockTests" */;
 			buildPhases = (
+				D303B1C9483B19BDE2F3BA0B /* [CP] Check Pods Manifest.lock */,
 				205E3DBE2543AE7B006433D9 /* Sources */,
 				205E3DBF2543AE7B006433D9 /* Frameworks */,
 				205E3DC02543AE7B006433D9 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205E3DDC2543AE7B006433D9 /* Build configuration list for PBXNativeTarget "InstaMockUITests" */;
 			buildPhases = (
+				50CD589C8BDAA1803D1CA356 /* [CP] Check Pods Manifest.lock */,
 				205E3DC92543AE7B006433D9 /* Sources */,
 				205E3DCA2543AE7B006433D9 /* Frameworks */,
 				205E3DCB2543AE7B006433D9 /* Resources */,
+				75A450E91E816DD0C5FAF77B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30E7F22D86A18C2D92AE65B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaMock/Pods-InstaMock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaMock/Pods-InstaMock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaMock/Pods-InstaMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50CD589C8BDAA1803D1CA356 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaMock-InstaMockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657D41F25F80BF067E8AE735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A450E91E816DD0C5FAF77B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaMock-InstaMockUITests/Pods-InstaMock-InstaMockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaMock-InstaMockUITests/Pods-InstaMock-InstaMockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaMock-InstaMockUITests/Pods-InstaMock-InstaMockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D303B1C9483B19BDE2F3BA0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaMockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		205E3DA82543AE78006433D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205E3DB42543AE78006433D9 /* ViewController.swift in Sources */,
+				20729F7A2543B16D00087045 /* LoginViewController.swift in Sources */,
+				20F865762543BB2C0089116C /* CameraViewController.swift in Sources */,
 				205E3DB02543AE78006433D9 /* AppDelegate.swift in Sources */,
+				20729F7F2543B1AD00087045 /* FeedViewController.swift in Sources */,
 				205E3DB22543AE78006433D9 /* SceneDelegate.swift in Sources */,
+				2018763F2543C171009EF9DF /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		205E3DD72543AE7B006433D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A4303CE393347C513510FF /* Pods-InstaMock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +612,7 @@
 		};
 		205E3DD82543AE7B006433D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B4BB82D1ED337D9D5E1724 /* Pods-InstaMock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +631,7 @@
 		};
 		205E3DDA2543AE7B006433D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EBD7E66CE3686681730A05 /* Pods-InstaMockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +653,7 @@
 		};
 		205E3DDB2543AE7B006433D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D62A57491F4985C4116F24D /* Pods-InstaMockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +675,7 @@
 		};
 		205E3DDD2543AE7B006433D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D9502CD46C8DF772C15AF9 /* Pods-InstaMock-InstaMockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +695,7 @@
 		};
 		205E3DDE2543AE7B006433D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EEF0AF9165C0BAADAE4BCD /* Pods-InstaMock-InstaMockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
