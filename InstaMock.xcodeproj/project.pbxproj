@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01BBA946C605050A78DD8AE1 /* Pods_InstaMock_InstaMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491779C3AC374B62D29F7D06 /* Pods_InstaMock_InstaMockUITests.framework */; };
+		200ACF12254CBED700553ADB /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200ACF11254CBED700553ADB /* CommentCell.swift */; };
 		2018763F2543C171009EF9DF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018763E2543C171009EF9DF /* PostCell.swift */; };
 		205E3DB02543AE78006433D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DAF2543AE78006433D9 /* AppDelegate.swift */; };
 		205E3DB22543AE78006433D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E3DB12543AE78006433D9 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		01B4BB82D1ED337D9D5E1724 /* Pods-InstaMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaMock.release.xcconfig"; path = "Target Support Files/Pods-InstaMock/Pods-InstaMock.release.xcconfig"; sourceTree = "<group>"; };
+		200ACF11254CBED700553ADB /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2018763E2543C171009EF9DF /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		205E3DAC2543AE78006433D9 /* InstaMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E3DAF2543AE78006433D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				205E3DAF2543AE78006433D9 /* AppDelegate.swift */,
 				205E3DB12543AE78006433D9 /* SceneDelegate.swift */,
 				205E3DB52543AE78006433D9 /* Main.storyboard */,
+				200ACF11254CBED700553ADB /* CommentCell.swift */,
 				2018763E2543C171009EF9DF /* PostCell.swift */,
 				20F865752543BB2C0089116C /* CameraViewController.swift */,
 				20729F7E2543B1AD00087045 /* FeedViewController.swift */,
@@ -421,6 +424,7 @@
 				20729F7F2543B1AD00087045 /* FeedViewController.swift in Sources */,
 				205E3DB22543AE78006433D9 /* SceneDelegate.swift in Sources */,
 				2018763F2543C171009EF9DF /* PostCell.swift in Sources */,
+				200ACF12254CBED700553ADB /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
